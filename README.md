@@ -22,7 +22,9 @@ The file Tweet.csv contains those same tweets in a csv file, and then the files 
 
 ## About the files:
 
-Data_parsing notebook is claeaning datasets DatasetOne and DatasetTwo, and merging the data set Tweet.csv already cleaned.
+
+Data_parsing notebook is cleaning datasets DatasetOne and DatasetTwo, and merging the data set Tweet.csv already cleaned.
+dataset3 notebook is cleanind the Tweet.csv dataset and outputs a csv that has been read and merged into the rest of the data by Data_parsing.ipynb
 It also outputs the final dataset (data_tweets.csv) into the data/ folder.
 
 There are TWO data folders:
