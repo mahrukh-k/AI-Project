@@ -14,7 +14,7 @@ Tweets were fetched with two different queries:
 The file DatasetOne.csv contains all these data (1.05 Gb)
 The file DatasetTwo.csv contains another (smaller) subset of this same query (700 Mb)
 
-There are many duplicates between these tow data sets
+There are many duplicates between these two data sets
 
 **2. Tweets containing the terms tran AND Norfolk, from February 13 to March 15, 2023: 124k tweets**
 
