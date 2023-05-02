@@ -1,7 +1,7 @@
 # AI-Project
 
 This is the repository to our final Intro to AI project:
-Parsing tweets about the train derailment in East Palestine, Ohio, to ...
+Parsing tweets about the train derailment in East Palestine, Ohio, to test our hypothesis that initial reports coming in from government channels were not clear on the extent of the disaster. On the other hand, the locals living in the area and in nearby towns - as far as in Pennsylvania, were worried about water and air contamination. It was only after a few days that the media picked up the news and the government switched to a more aggressive approach towards tackling the situation. 
 
 Team Members:   
 Elaine Zhang (yizhang5), Mahrukh Khan (mahrukhk), Ricardo Ibarra-Gil (ribarrag)  
@@ -22,14 +22,14 @@ The file Tweet.csv contains those same tweets in a csv file, and then the files 
 
 ## About the files:
 
-
-Data_parsing notebook is cleaning datasets DatasetOne and DatasetTwo, and merging the data set Tweet.csv already cleaned.
-dataset3 notebook is cleanind the Tweet.csv dataset and outputs a csv that has been read and merged into the rest of the data by Data_parsing.ipynb
+Data_parsing_1 and Data_parsing_2 are cleaning datasets DatasetOne and DatasetTwo, and createing clean data version of the dataset
+EDA is a rought exploratory descriptive analytics report, just to get a sense of the cleaned data
 It also outputs the final dataset (data_tweets.csv) into the data/ folder.
+LDA_analysis contains the code performing the topic modeling analysis
+Preprocessing and Sentiment Analysis includes the bulk of the preprocessing and the Sentiment Analysis code
 
-There are TWO data folders:
-raw_data <- git ignored because contains the raw data sets, some of them > 1 Gb, not supported by Github
-data <- contains final data set that we should use
-(raw_data is called by Data_parsing notebook)
+There are two data folders:
+raw_data (hidden) <- git ignored because contains the raw data sets, some of them > 1 Gb
+data <- contains final data set
 
 
