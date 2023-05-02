@@ -13,7 +13,7 @@ We hypothesize that initial reports coming in from government channels were not 
 We intend to confirm this hypothesis by analyzing tweets from government-run twitter accounts, news channels, and the public.
 
 <b>Input Data Source</b><br>
-Scraped data from tweets between February 3 - February 28, 2023
+Scraped data from tweets between February 3 - March 15, 2023
 News articles 
  
 <b>Model Usage & Reference </b><br>
